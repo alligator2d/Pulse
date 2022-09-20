@@ -2,20 +2,25 @@
   min-height: 470px;
   padding-top: 71px;
   background: #f6f6f6;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    align-items: center;
+  }
   &__header {
     font-weight: 700;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    color: #0d0d0d;
+    color: red;
   }
+
   &__icons {
     width: 749px;
     height: 70px;
-    display: flex;
-    flex-direction: row;
+
     margin: 0 auto;
-    margin-top: 65px;
   }
   &__icon {
     span {

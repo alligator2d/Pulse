@@ -422,6 +422,9 @@
   top: 8px;
 }
 
+.feed {
+  padding: 0 515px 48px 488px;
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }

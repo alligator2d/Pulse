@@ -423,8 +423,38 @@
 }
 
 .feed {
-  padding: 0 515px 48px 488px;
+  padding-bottom: 71px;
 }
+.feed__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.feed__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #0d0d0d;
+}
+.feed__count {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #646464;
+}
+.feed__descr {
+  width: 650px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #0d0d0d;
+  margin-top: 10px;
+}
+.feed__img {
+  width: 169px;
+  height: 169px;
+}
+
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }

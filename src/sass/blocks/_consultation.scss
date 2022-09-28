@@ -10,4 +10,12 @@
     align-items: flex-end;
     color: #ffffff;
   }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    color: #ffff;
+    text-align: center;
+  }
 }

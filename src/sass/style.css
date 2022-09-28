@@ -199,6 +199,14 @@
   align-items: flex-end;
   color: #ffffff;
 }
+.consultation .error {
+  border: 1px solid red;
+}
+.consultation label.error {
+  border: none;
+  color: white;
+  text-align: center;
+}
 
 .feed-form {
   margin-top: 36px;
@@ -220,6 +228,9 @@
 }
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
+}
+.feed-form_mt25 {
+  margin-top: 25px;
 }
 
 .carousel {
@@ -498,7 +509,73 @@
 }
 
 .overlay {
-  height: 200px;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+
+.modal1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  min-height: 400px;
+  background-color: #f2f2f2;
+  padding: 35px 40px 40px 40px;
+}
+.modal1__subtitle {
+  width: 315px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #0d0d0d;
+}
+.modal1__descr {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+  color: #0d0d0d;
+}
+.modal1__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  line-height: 21px;
+  font-size: 41px;
+  color: #c70101;
+  cursor: pointer;
+}
+.modal1_mini {
+  min-height: 140px;
+}
+.modal1 .error {
+  border: 1px solid red;
+}
+.modal1 label.error {
+  border: none;
+}
+
+#consultation,
+#order,
+#thanks {
+  display: none;
+}
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+.pageup img {
+  width: 100%;
 }
 
 * {
